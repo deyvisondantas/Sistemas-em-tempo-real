@@ -1,14 +1,13 @@
 // UFRN-CT-DCA
 // Disciplina: Sistemas Operacionais
 // Programa matatdor.cpp
-// Sinais sã eventos gerados pelo Unix em resposta a algumas condições, como:
-//  erros, violação de memória, instrução ilegal, ...
+
 
 #include <signal.h> // definição dos sinais de interrupções
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h> // system()
-#include <sched.h>
+#include <sched.h>  // Biblioteca para uso do cpu_set
 
 
 
